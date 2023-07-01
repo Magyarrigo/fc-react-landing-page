@@ -1,0 +1,25 @@
+.pageHeaderLogo {
+  font-size: 35px;
+  line-height: 47px;
+  padding: 10px 20px;
+}
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.logoIcon,
+.logoTextFirst,
+.logoTextSecond {
+  display: block;
+}
+.logoTextFirst {
+  margin-left: 10px;
+  color: var(--color-red);
+  font-weight: 800;
+}
+.logoTextSecond {
+  margin-left: 5px;
+  color: var(--color-white);
+  font-weight: 700;
+}
