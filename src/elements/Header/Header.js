@@ -12,8 +12,8 @@ function Header() {
           <nav>
             <ul className="headerNav">
               <Link id="#aboutUs" text="o nas" />
-              <Link id="#aboutUs" text="oferta" />
-              <Link id="#aboutUs" text="kontakt" />
+              <Link id="#ourOffer" text="oferta" />
+              <Link id="#contact" text="kontakt" />
             </ul>
           </nav>
         </div>

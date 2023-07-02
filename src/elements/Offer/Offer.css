@@ -1,0 +1,7 @@
+.offerContainer {
+  min-height: 500px;
+  background-color: var(--color-gray-3);
+}
+.ourOfferTitle {
+  margin: 0;
+}
