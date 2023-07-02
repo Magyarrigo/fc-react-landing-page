@@ -1,0 +1,44 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 3px 6px var(--color-primary-shadow);
+  }
+  .footerContainer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .logoAtFooter {
+    height: 20px;
+  }
+  
+  
+  .footerContainerMediaIcons {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+  
+  }
+  .twitterIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url("./Twitter.svg");
+    background-repeat: no-repeat;
+    
+  }
+  .facebookIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url("./Facebook.svg");
+    background-repeat: no-repeat;
+
+  }
+  

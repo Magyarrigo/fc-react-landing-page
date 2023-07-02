@@ -1,4 +1,5 @@
 import Aboutus from "./elements/Aboutus/Aboutus";
+import Footer from "./elements/Footer/Footer";
 import Header from "./elements/Header/Header";
 import Offer from "./elements/Offer/Offer";
 import PageBanner from "./elements/Pagebanner/Pagebanner";
@@ -17,6 +18,7 @@ function App() {
       />
       <Aboutus />
       <Offer offerTitle={offerTitle} />
+      <Footer />
     </>
   );
 }

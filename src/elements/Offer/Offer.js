@@ -21,7 +21,7 @@ const offerArray = [
     isNew: false,
   },
   {
-    offerName: "Offer fife",
+    offerName: "Offer five",
     isNew: false,
   },
   {
@@ -36,8 +36,14 @@ function Offer({ offerTitle }) {
       <Container>
         <h1 className="ourOfferTitle">{offerTitle}</h1>
         <div className="ourOffersContainer">
-          {offerArray.map(function (item) {
-            return <Square offerName={item.offerName} isNew={item.isNew} />;
+          {offerArray.map(function (item, index) {
+            return (
+              <Square
+                offerName={item.offerName}
+                isNew={item.isNew}
+                key={index}
+              />
+            );
           })}
         </div>
       </Container>
