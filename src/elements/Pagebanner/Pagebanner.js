@@ -8,7 +8,7 @@ function Pagebanner({ title, description, buttonText }) {
       <Container>
         <h1 className="pageBannerTitle">{title}</h1>
         <p className="pageBannerDescription">{description}</p>
-        <a href="#" className="pageBannerLink">
+        <a href="#a" className="pageBannerLink">
           {buttonText}
         </a>
       </Container>

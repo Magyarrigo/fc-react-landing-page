@@ -1,10 +1,11 @@
 .photo {
-  background-image: url("./associate-1.gif");
   border-radius: 50%;
   border: solid 2px var(--color-white);
   width: 100px;
   height: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+}
+.image {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
 }

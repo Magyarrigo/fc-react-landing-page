@@ -1,7 +1,11 @@
 import "./Photo.css";
 
-function Photo({ number }) {
-  return <div className="photo"></div>;
+function Photo({ image }) {
+  return (
+    <div className="photo">
+      <img className="image" src={image} />
+    </div>
+  );
 }
 
 export default Photo;
