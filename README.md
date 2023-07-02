@@ -4,7 +4,6 @@ https://fc-react-project-landing-page.netlify.app
 
 
 Poprawnie stworzony projekt musi posiadać:
-
 link do repo na GitHubie (Jak stworzyć własne repo na GitHubie?)
 link do dzialajacej strony na Netlify (Jak deploynąć kod z GitHuba na Netlify?)
 mieć kod sformatowany z użyciem formatera Prettier (VSCode plug-in)
