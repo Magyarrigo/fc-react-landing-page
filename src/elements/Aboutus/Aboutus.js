@@ -1,12 +1,22 @@
+import Container from "../Container/Container";
 import "./Aboutus.css";
+import Associate from "./Associate/Associate";
+import Photo from "./Photo/Photo";
 
-function Aboutus({ id, text }) {
+function Aboutus({ number }) {
   return (
-    <li className="navElement">
-      <a className="navLink" href={id}>
-        {text}
-      </a>
-    </li>
+    <div id="aboutUs" className="aboutUs">
+      <Container>
+        <div className="associateField">
+          <Photo />
+          <Associate
+            imie={"Marta"}
+            nazwisko={"Podsiadlo"}
+            dzial={"[dzial HR]"}
+          />
+        </div>
+      </Container>
+    </div>
   );
 }
 

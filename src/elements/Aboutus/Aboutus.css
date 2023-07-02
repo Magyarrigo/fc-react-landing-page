@@ -1,0 +1,12 @@
+.aboutUs{
+    min-height: 200px;
+    background-color: var(--color-gray-4);
+}
+.associateField{
+    display: flex;
+    border: solid 2px var(--color-red);
+    border-radius: 10px;
+    min-height: 250px;
+    align-items: center;
+    justify-content: space-around;
+}
