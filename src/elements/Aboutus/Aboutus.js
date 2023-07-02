@@ -8,16 +8,36 @@ function Aboutus() {
     <div id="aboutUs" className="aboutUs">
       <Container>
         <div className="associateField">
-          <Photo image="associate-1.gif" />
-          <Associate imie="Marta" nazwisko="Podsiadlo" dzial="[dzial HR]" />
+          <Photo image="associate-2.gif" />
+          <Associate
+            name="Marta"
+            lastName="Podsiadlo"
+            department="[dzial HR]"
+          />
         </div>
         <div className="associateField">
-          <Photo image="associate-2.gif" />
-          <Associate imie="Marta" nazwisko="Podsiadlo" dzial="[dzial HR]" />
+          <Photo image="associate-1.gif" />
+          <Associate
+            name="Marta"
+            lastName="Podsiadlo"
+            department="[dzial HR]"
+          />
+        </div>
+        <div className="associateField">
+          <Photo image="associate-4.gif" />
+          <Associate
+            name="Marcelina"
+            lastName="Grotynska"
+            department="[dzial SALES]"
+          />
         </div>
         <div className="associateField">
           <Photo image="associate-3.gif" />
-          <Associate imie="Marta" nazwisko="Podsiadlo" dzial="[dzial HR]" />
+          <Associate
+            name="Kamil"
+            lastName="Dodatkowy"
+            department="[dzial SALES]"
+          />
         </div>
       </Container>
     </div>

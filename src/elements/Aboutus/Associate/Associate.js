@@ -1,12 +1,12 @@
 import "./Associate.css";
 
-function Associate({ imie, nazwisko, dzial }) {
+function Associate({ name, lastName, department }) {
   return (
     <div className="associateData">
       <div className="associateDataTitle">
-        <h2>{imie}</h2>
-        <h2>{nazwisko}</h2>
-        <h2>{dzial}</h2>
+        <h2>{name}</h2>
+        <h2>{lastName}</h2>
+        <h2>{department}</h2>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Morbi vel massa et lacus egestas cursus a non magna. 
