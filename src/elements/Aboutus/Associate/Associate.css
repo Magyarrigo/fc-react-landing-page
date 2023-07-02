@@ -1,9 +1,7 @@
 .associateData {
-    width:80%;
-
+  width: 80%;
   display: block;
 }
-
 .associateDataTitle {
   display: flex;
   justify-content: space-between;

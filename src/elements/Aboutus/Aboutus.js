@@ -1,5 +1,5 @@
-import Container from "../Container/Container";
 import "./Aboutus.css";
+import Container from "../Container/Container";
 import Associate from "./Associate/Associate";
 import Photo from "./Photo/Photo";
 
@@ -10,8 +10,8 @@ function Aboutus() {
         <div className="associateField">
           <Photo image="associate-2.gif" />
           <Associate
-            name="Marta"
-            lastName="Podsiadlo"
+            name="Angelika"
+            lastName="Podmuch"
             department="[dzial HR]"
           />
         </div>

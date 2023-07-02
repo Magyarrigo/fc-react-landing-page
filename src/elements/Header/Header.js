@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <Container>
         <div className="headerContainer">
-          <Logo textFirst="moja" textSecond = "firma" />
+          <Logo textFirst="moja" textSecond="firma" />
           <nav>
             <ul className="headerNav">
               <Link id="#aboutUs" text="o nas" />

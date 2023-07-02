@@ -15,7 +15,6 @@
   background-color: var(--color-black);
   opacity: 0.3;
 }
-
 .pageBanner {
   flex-grow: 1;
   position: relative;
@@ -29,7 +28,6 @@
   justify-content: center;
   padding: 10px 20px;
 }
-
 .pageBannerTitle {
   font-weight: 700;
   font-size: 50px;
@@ -40,7 +38,6 @@
   font-weight: 700;
   font-size: 25px;
 }
-
 .pageBannerLink {
   display: inline-block;
   width: 60px;
@@ -55,7 +52,6 @@
   background-color: var(--color-red);
   color: var(--color-white);
   justify-content: center;
-
   box-shadow: 0 3px 6px var(--color-red-opacity-1);
 }
 .pageBannerLink:hover {

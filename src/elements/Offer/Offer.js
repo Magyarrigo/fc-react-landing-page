@@ -1,6 +1,5 @@
-import Container from "../Container/Container";
 import "./Offer.css";
-
+import Container from "../Container/Container";
 import Square from "./Square/Square";
 
 const offerArray = [
