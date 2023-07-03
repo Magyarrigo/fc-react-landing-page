@@ -27,6 +27,14 @@ const offerArray = [
     offerName: "Offer six",
     isNew: true,
   },
+  {
+    offerName: "New Car rental",
+    isNew: "true",
+  },
+  {
+    offerName: "satelite",
+    isNew: "true",
+  },
 ];
 
 function Offer({ offerTitle }) {
