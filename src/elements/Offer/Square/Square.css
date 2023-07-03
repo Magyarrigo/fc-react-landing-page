@@ -7,9 +7,10 @@
   margin: 5%;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 .square:hover {
-  transition: 0.5s;
+  
   transform: scale(1.05);
 }
 .squareNew {

@@ -4,9 +4,8 @@ function Associate({ name, lastName, department }) {
   return (
     <div className="associateData">
       <div className="associateDataTitle">
-        <h2>{name}</h2>
-        <h2>{lastName}</h2>
-        <h2>{department}</h2>
+        <h2>{name} {lastName} {department}</h2>
+        
       </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa

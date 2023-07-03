@@ -10,13 +10,12 @@ function Square({ offerName, isNew }) {
         </div>
       </div>
     );
-  } else {
-    return (
-      <div className="square">
-        <h2>{offerName}</h2>
-      </div>
-    );
   }
+  return (
+    <div className="square">
+      <h2>{offerName}</h2>
+    </div>
+  );
 }
 
 export default Square;
