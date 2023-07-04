@@ -27,7 +27,7 @@ function Aboutus() {
           <Photo image="associate-4.gif" />
           <Associate
             name="Marcelina"
-            lastName="Grotynska"
+            lastName="Grot"
             department="[dzial SALES]"
           />
         </div>
