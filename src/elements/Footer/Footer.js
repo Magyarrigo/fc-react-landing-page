@@ -16,8 +16,10 @@ function Footer() {
             <p className="footerText">Wszystkie prawa zastrzeżone @2023 </p>
           </div>
           <div className="footerContainerMediaIcons">
-            <div className="facebookIcon" />
-            <div className="twitterIcon" />
+          <img src="Twitter.svg" alt="twitterIcon" />
+          <img src="Facebook.svg" alt="facebookIcon" />
+            
+           
           </div>
         </div>
       </Container>

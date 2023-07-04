@@ -6,7 +6,7 @@
 }
 .footerContainer {
   width: 100%;
-  height: 100%;
+  height: 50px;
 
   display: flex;
   align-items: center;
@@ -31,16 +31,4 @@
   display: flex;
   justify-content: space-around;
   margin-right: 50px;
-}
-.twitterIcon {
-  width: 30px;
-  height: 30px;
-  background-image: url("./Twitter.svg");
-  background-repeat: no-repeat;
-}
-.facebookIcon {
-  width: 30px;
-  height: 30px;
-  background-image: url("./Facebook.svg");
-  background-repeat: no-repeat;
 }
