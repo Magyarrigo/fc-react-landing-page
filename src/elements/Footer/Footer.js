@@ -1,4 +1,6 @@
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import Logo from "../Logo/Logo";
 import Container from "../Container/Container";
 
@@ -16,10 +18,12 @@ function Footer() {
             <p className="footerText">Wszystkie prawa zastrzeżone @2023 </p>
           </div>
           <div className="footerContainerMediaIcons">
-          <img src="Twitter.svg" alt="twitterIcon" />
-          <img src="Facebook.svg" alt="facebookIcon" />
-            
-           
+            <FontAwesomeIcon
+              icon={faTwitter}
+              background-color="red"
+              color="white"
+            />
+            <FontAwesomeIcon icon={faFacebook} color="white" />
           </div>
         </div>
       </Container>
